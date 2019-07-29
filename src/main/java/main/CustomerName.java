@@ -12,7 +12,7 @@ public class CustomerName{
 
 	public void setName(String name) {
 		//write your code here
-		this.name=name;
+		this.name = name;
 	}
 	
 }
