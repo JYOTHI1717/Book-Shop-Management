@@ -39,6 +39,7 @@ public class BookShop{
         Scanner sc = new Scanner(System.in);
         Cart c1 = new Cart();
         take1 = sc.nextInt(); //product name
+        
         while(take1 != -1){
             take2 = sc.nextInt(); //quantity
             c1.updateCart(itemAvailable[take1-1], take2);
